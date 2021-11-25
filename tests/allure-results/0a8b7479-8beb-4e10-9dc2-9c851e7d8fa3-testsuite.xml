@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637858979195' stop='1637859025769'>
+    <name>Testing site functionality:</name>
+    <title>Testing site functionality:</title>
+    <test-cases>
+        <test-case start='1637858991886' status='passed' stop='1637859002567'>
+            <name>If products are filtered by trademark properly</name>
+            <title>If products are filtered by trademark properly</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1637858991888' status='passed' stop='1637858995880'>
+                    <name>Search certain category</name>
+                    <title>Search certain category</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637858995880' status='passed' stop='1637859002566'>
+                    <name>Filter by trademark</name>
+                    <title>Filter by trademark</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Check the filter functionality (trademark)</description>
+        </test-case>
+        <test-case start='1637859002567' status='passed' stop='1637859009552'>
+            <name>If products are filtered by fat content properly</name>
+            <title>If products are filtered by fat content properly</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1637859002568' status='passed' stop='1637859009551'>
+                    <name>Filter by fat content</name>
+                    <title>Filter by fat content</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Check the filter functionality (fat content)</description>
+        </test-case>
+        <test-case start='1637859009552' status='passed' stop='1637859013369'>
+            <name>If products are ordered in descending order properly</name>
+            <title>If products are ordered in descending order properly</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1637859009552' status='passed' stop='1637859013367'>
+                    <name>Order by price in descending order</name>
+                    <title>Order by price in descending order</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Check order functionality</description>
+        </test-case>
+        <test-case start='1637859013369' status='passed' stop='1637859025442'>
+            <name>If product is correctly added to a wish list</name>
+            <title>If product is correctly added to a wish list</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1637859013371' status='passed' stop='1637859019909'>
+                    <name>Add product to the wishlist</name>
+                    <title>Add product to the wishlist</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637859019909' status='passed' stop='1637859025442'>
+                    <name>Check product availability in the wishlist</name>
+                    <title>Check product availability in the wishlist</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Check adding to the wishlist functionality</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
